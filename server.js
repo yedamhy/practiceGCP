@@ -1,15 +1,14 @@
 const express = require('express');
 const app = express();
-const port = 3000;
 
-// 정적 파일 제공을 위한 미들웨어 설정
-app.use(express.static('public'));
+// 환경 변수에서 제공된 포트 또는 8080 포트를 사용합니다.
+const PORT = process.env.PORT || 8080;
 
-// '/' 경로로 요청이 오면 'index.html'을 응답
 app.get('/', (req, res) => {
-    res.sendFile('index.html', { root: __dirname });
+  res.send('Hello World from App Engine!');
 });
 
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+// 지정된 포트에서 서버를 시작합니다.
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
