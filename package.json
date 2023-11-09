@@ -5,10 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "yarn build && glcoud app deploy"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^4.18.2" 
-  },
+    "express": "^4.18.2" // Express 버전은 최신 안정 버전으로 지정하세요.
+  }
 }
