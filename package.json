@@ -4,11 +4,10 @@
   "description": "GCP로 서버 배포 연습",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.1=2" // Express 버전은 최신 안정 버전으로 지정하세요.
   }
 }
