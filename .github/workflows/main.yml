@@ -6,7 +6,7 @@ on:
 
 env:
   PROJECT_ID: 	even-arc-404608  # Google Cloud 프로젝트 ID
-  SERVICE:  instance-1   # Cloud Run 서비스 이름
+  SERVICE:  practicegcp   # Cloud Run 서비스 이름
   REGION: us-west4             # Cloud Run 서비스 리전 (예: us-central1)
 
 jobs:
