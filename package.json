@@ -2,7 +2,7 @@
   "name": "practicegcp",
   "version": "1.0.0",
   "description": "GCP로 서버 배포 연습",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
